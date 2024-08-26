@@ -7426,8 +7426,17 @@ label {
     display: none
     
 }
-
+.cs_munu_dropdown_toggle {
+  
+    display: none;
+}
 @media screen and (max-width: 991px) {
+    .cs_toggle .setting_mode button {
+        border: none;
+        background-color: #2b2b2f;
+        padding: 10px;
+        display: none;
+    }
     .cs_contact_ms {
         flex-wrap: wrap;
         flex-direction: column;
