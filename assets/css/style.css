@@ -3582,9 +3582,9 @@ label {
 .cs_site_branding {
     display: inline-block;
 }
-
 .cs_site_branding img {
-    max-height: 45px;
+    max-height: 44px !important;
+    object-fit: contain;
 }
 
 @media screen and (min-width: 1200px) {
@@ -7415,11 +7415,7 @@ label {
     border-radius: 50%;
 }
 .cs_footer_info img {
-    height: 80px;
-}
-
-.cs_site_branding img {
-    max-height: 65px !important;
+    height: 50px;
 }
 
 .cs_nav .cs_nav_list>li.menu-item-has-children>a::after {
