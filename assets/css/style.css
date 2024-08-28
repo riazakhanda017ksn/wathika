@@ -309,7 +309,21 @@ textarea {
     text-align: center;
 }
 
+.container {
+    max-width: 1200px !important;
+    margin: 0 auto;
+}
+.cs_site_header_full_width .container {
+    max-width: 100%;
+    padding: 0 !important
+}
+
+
 @media screen and (max-width: 772px) {
+    .cs_site_header_full_width .container {
+        max-width: 100%;
+        padding: 0 8px!important
+    }
     .cs_preloader .loading {
         font-size: 50px;
     }
