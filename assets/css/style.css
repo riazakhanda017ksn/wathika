@@ -1569,20 +1569,88 @@ label {
     max-height: 100px;
 }
 
-.cs_stroke_text {
+/* .cs_stroke_text {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.2em;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--body-color);
+    
+} */
+
+/* .cs_stroke_text.cs_type_1 {
+    -webkit-text-stroke: 1.5px var(--body-color);
+    text-align: center;
+    font-size: 265.289px;
+    line-height: 321px;
+} */
+
+.number_counting{
+        font-size: 120px;
+        font-weight: 900;
+        line-height: 1em;
+        display: inline-block;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-attachment: scroll;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+}
+.cs_funfact.cs_style1 span {
+    font-size: 60px;
+}
+
+.cs_moving_section.cs_stroke_text {
     font-size: 100px;
     font-weight: 900;
     line-height: 1.2em;
     color: transparent;
     -webkit-text-stroke: 1px var(--body-color);
 }
-
-.cs_stroke_text.cs_type_1 {
-    -webkit-text-stroke: 1.5px var(--body-color);
-    text-align: center;
-    font-size: 265.289px;
-    line-height: 321px;
+.cs_funfact.cs_style1 .cs_funfact_text::before {
+    content: "";
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    background-color: #ff7c1f !important;
+    opacity: 0.5 !important;
 }
+.cs_hero_mini_title {
+    border-radius: 30px;
+    font-size: 18px !important;
+    background: #ffffff86;
+    padding: 5px 10px;
+}
+.cs_funfact.cs_style1 .cs_funfact_text p {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    color: #c1c1c1;
+}
+
+.cs_funfact.cs_style1 .cs_funfact_text {
+    font-size: 19px;
+    line-height: 2em;
+    position: relative;
+    padding: 5px 0;
+    padding-left: 27px;
+}
+.cs_funfact.cs_style1 p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
 
 .cs_stroke_normal {
     font-size: 100px;
@@ -1604,7 +1672,78 @@ label {
     font-size: 265.289px;
     line-height: 321px;
 }
+.color-black {
+    color: black !important;
+}
 
+blockquote.cs_testimonial_text {
+    color: #454545;
+}
+.cs_testimonial_avatar_designation {
+    color: #454545;
+}
+h3.cs_testimonial_avatar_name {
+    color: black !important;
+}
+label.cs_input_label {
+    color: white !important;
+}
+.cs_field_group .cs_input_field {
+    width: 100%;
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid #ffffff !important;
+    padding: 5px 0px;
+    background: transparent;
+    font-size: 18px;
+    color: #ffffff !important;
+    transition: 0.3s ease;
+}
+.cs_icon .cs_icon_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff !important;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+h6.cs_icon_title {
+    color: white !important;
+}
+p.cs_icon_subtitle {
+    color: #c1c1c1 !important;
+}
+.cs_btn.cs_style_1 {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 20px 0;
+    padding-left: 32px;
+    white-space: nowrap;
+    color: #c1c1c1 !important;
+}
+.cs_icon .cs_icon_style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282727 !important;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.height-management img {
+    height: 650px;
+    object-fit: cover;
+}
+.cs_nav.cs_medium.cs_menu_item {
+    color: white !important;
+}
+.menu__ span {
+    color: white !important;
+}
 @media screen and (max-width: 991px) {
     .cs_stroke_number.cs_type_1 {
         font-size: 100px;
