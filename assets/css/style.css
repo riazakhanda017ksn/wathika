@@ -1722,7 +1722,6 @@ p.cs_icon_subtitle {
     padding: 20px 0;
     padding-left: 32px;
     white-space: nowrap;
-    color: #c1c1c1 !important;
 }
 .cs_icon .cs_icon_style {
     display: flex;
@@ -1744,6 +1743,67 @@ p.cs_icon_subtitle {
 .menu__ span {
     color: white !important;
 }
+
+/* new css */
+h2.cs_section_title.anim_heading_title {
+    color: black !important;
+}
+.cs_section_subtitle.anim_div_ShowZoom {
+    color: black !important;
+}
+.cs_card.cs_style_1.cs_color_1 .cs_card_title {
+    color: black !important;
+}
+
+.cs_card_subtitle {
+    color: black !important;
+}
+.cs_card.cs_style_1.cs_color_1 .cs_card_link_wrap {
+    color: black !important;
+}
+.cs_card_1_list .cs_card.cs_style_1.cs_color_1:not(:last-child) .cs_card_right {
+    border-color: #0f0f0f;
+}
+.cs_btn.cs_style_1 {
+   
+    color: black !important;
+}
+.cs_funfact.cs_style1 .cs_funfact_text p {
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    color: black !important;
+}
+.cs_funfact.cs_style1 .cs_funfact_text::before {
+    content: "";
+    position: absolute;
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+    background-color: var(--accent-color) !important;
+    opacity: 1 !important;
+}
+
+button.cs_btn.cs_style_1.cs_type_btn.color-change {
+    color: white !important;
+}
+.cs_footer_info a {
+    font-size: 50px;
+    display: inline-block;
+    color: #fff;
+    font-weight: 900;
+    line-height: 1.2em;
+}
+.cs_toggle .setting_mode button {
+    display: none;
+}
+.cs_toggle .cs_mode_btn {
+   
+    display: none;
+}
+
 @media screen and (max-width: 991px) {
     .cs_stroke_number.cs_type_1 {
         font-size: 100px;
