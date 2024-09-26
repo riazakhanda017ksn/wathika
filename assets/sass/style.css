@@ -4989,7 +4989,7 @@ label {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   background-attachment: scroll;
-  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0);
 }
 .cs_card.cs_style_1 .cs_card_left {
   flex: none;

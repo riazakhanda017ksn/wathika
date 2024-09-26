@@ -1768,11 +1768,15 @@ h2.cs_section_title.anim_heading_title {
    
     color: black !important;
 }
+.cs_about_text {
+    background: #f9f9f7 !important;
+    padding-left: 50px !important;
+}
 .cs_funfact.cs_style1 .cs_funfact_text p {
     position: relative;
     z-index: 2;
     margin: 0;
-    color: black !important;
+    color: rgb(255, 255, 255) !important;
 }
 .cs_funfact.cs_style1 .cs_funfact_text::before {
     content: "";
@@ -1790,7 +1794,7 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
     color: white !important;
 }
 .cs_footer_info a {
-    font-size: 50px;
+    font-size: 50px !important;
     display: inline-block;
     color: #fff;
     font-weight: 900;
@@ -5624,7 +5628,7 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-attachment: scroll;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0);
 }
 
 .cs_card.cs_style_1 .cs_card_left {
