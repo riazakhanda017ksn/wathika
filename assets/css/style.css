@@ -1600,9 +1600,38 @@ label {
         -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
 }
 .cs_funfact.cs_style1 span {
-    font-size: 60px;
+    font-size: 75px;
 }
 
+ul.cs_nav_list li:nth-child(4) {
+    display: none;
+}
+.color-white {
+    color: black;
+}
+
+.border-white {
+    border-color: black !important;
+}
+
+button.cs_close {
+    color: black;
+}
+.cs_side_header .cs_side_header_in {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff !important;
+    flex: none;
+    color: #fff;
+    margin-left: auto;
+    overflow: auto;
+    padding: 90px 50px 50px 50px;
+    position: relative;
+    z-index: 2;
+    right: -500px;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
 .cs_moving_section.cs_stroke_text {
     font-size: 100px;
     font-weight: 900;
@@ -1618,7 +1647,7 @@ label {
     border-radius: 50%;
     left: 0;
     top: 0;
-    background-color: #ff7c1f !important;
+    background-color: none!important;
     opacity: 0.5 !important;
 }
 .cs_hero_mini_title {
@@ -1786,7 +1815,7 @@ h2.cs_section_title.anim_heading_title {
     border-radius: 50%;
     left: 0;
     top: 0;
-    background-color: var(--accent-color) !important;
+    background-color: none !important;
     opacity: 1 !important;
 }
 
@@ -6782,7 +6811,7 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
     line-height: 1.6em;
     position: relative;
     padding: 5px 0;
-    padding-left: 27px;
+    padding-left: 0px;
 }
 
 .cs_funfact.cs_style1 .cs_funfact_text::before {
@@ -6794,7 +6823,7 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
     left: 0;
     top: 0;
     opacity: 0.2;
-    background-color: var(--accent-color);
+    background-color: none
 }
 
 .cs_funfact.cs_style1 .cs_funfact_text.cs_color_1::before {

@@ -5966,7 +5966,7 @@ label {
   left: 0;
   top: 0;
   opacity: 0.2;
-  background-color: var(--accent-color);
+  background-color: none
 }
 .cs_funfact.cs_style1 .cs_funfact_text.cs_color_1::before {
   content: "";
