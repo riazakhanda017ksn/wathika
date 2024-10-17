@@ -5646,7 +5646,7 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
 }
 
 .cs_card.cs_style_1 .cs_card_number {
-    font-size: 120px;
+    font-size: 90px;
     font-weight: 900;
     line-height: 1em;
     display: inline-block;
@@ -7672,6 +7672,7 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
   
     display: none;
 }
+
 @media screen and (max-width: 991px) {
     .cs_toggle .setting_mode button {
         border: none;
