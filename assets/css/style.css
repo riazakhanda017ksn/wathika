@@ -4821,12 +4821,102 @@ button.cs_btn.cs_style_1.cs_type_btn.color-change {
     z-index: 6;
 }
 
+.cs_site_header.cs_style1 .cs_icon_btn {
+  
+    display: none;
+}
+/* login */
+.form-container {
+    width: 40%;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+}
+.form-container h2 {
+    text-align: left;
+    font-size: 35px;
+}
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form input {
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  div#signInForm button {
+    padding: 11px;
+    border: 1px solid #ff6b00;
+    background: #ff6b00;
+    border-radius: 4px;
+    color: #000;
+    &:hover{
+        background: none;
+        color:#ff6b00;
+    }
+}
+
+
+div#signUpForm button {
+    padding: 11px;
+    border: 1px solid #ff6b00;
+    background: #ff6b00;
+    border-radius: 4px;
+    color: #000;
+    &:hover{
+        background: none;
+        color:#ff6b00;
+    }
+}
+  .hidden {
+    display: none;
+  }
+
+  button.toggle-button {
+    background: none !important;
+    border: none !important;
+    text-align: left;
+    padding: 0 !important;
+    margin-top: 13px;
+}
+@media only screen and (max-width: 990px) {
+    .form-container {
+    width: 98%;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: none;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+}}
+
+/*  */
 @media only screen and (min-width: 991px) {
+ 
     .cs_hero.cs_style1 .cs_hero_title {
         font-size: 90px;
         font-weight: 900;
         margin-bottom: 0;
     }
+    .cs_site_header.cs_style1 .cs_icon_btn {
+  
+        display: block !important;
+    }
+    
 }
 
 .cs_hero.cs_style1 .cs_hero_text_in {
